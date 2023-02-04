@@ -4,8 +4,8 @@ body {
 }
 
 embed {
-    min-width: 200vw !important;
-    height: 100vh !important;
+    width: 100vw !important;
+    height: 50vh;
 }
 
 div {
@@ -14,4 +14,9 @@ div {
     justify-content: center !important;
     width: 100% !important;
     height: 100% !important;
+}
+
+iframe {
+    min-width: 200vw;
+    height: 50vh;
 }
