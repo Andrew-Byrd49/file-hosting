@@ -1,11 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 embed {
     width: 100vw !important;
-    height: 50vh;
+    height: 100vh;
 }
 
 div {
@@ -14,9 +16,11 @@ div {
     justify-content: center !important;
     width: 100% !important;
     height: 100% !important;
+    border: 1px #222 solid;
 }
 
 iframe {
-    min-width: 200vw;
-    height: 50vh;
+    min-width: 100vw;
+    height: 100vh;
+    border-right: 5px #222 solid;
 }
